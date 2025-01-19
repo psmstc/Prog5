@@ -16,7 +16,7 @@ def myfoo():
 ```
 python -m http.server
 ```
-![4](/screenshots/image.png)
+![4](screenshots/image.png)
 
 5. После этого мы запускаем файл, в котором содержится код, размещенный выше (обязательно добавление в sys.path_hooks).
 ```
