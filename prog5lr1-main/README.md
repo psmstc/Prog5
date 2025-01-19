@@ -16,7 +16,7 @@ def myfoo():
 ```
 python -m http.server
 ```
-![4](/screenshots/image.jpg)
+![4](/screenshots/image.png)
 
 5. После этого мы запускаем файл, в котором содержится код, размещенный выше (обязательно добавление в sys.path_hooks).
 ```
@@ -32,4 +32,4 @@ sys.path.append("http://localhost:8000")
 8.Протестируйте работу удаленного импорта, используя в качестве источника модуля другие "хостинги" (например, repl.it, github pages, beget, sprinthost).
 9.Переписать содержимое функции url_hook, класса URLLoader с помощью модуля requests (см. комменты).
 
-![9](screenshots/image2.jpg)
+![9](screenshots/image2.png)
